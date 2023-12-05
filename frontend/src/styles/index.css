@@ -6,4 +6,12 @@
 
 :root{
     font-family: 'Fira Code', monospace;
+    --bg-color:#fbf0c9;
+}
+body{
+    background: var(--bg-color);
+}
+
+.dark{
+    --bg-color:#282828;
 }
