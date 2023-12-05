@@ -1,13 +1,10 @@
-import { useState } from 'react'
+import HomePage from "./pages/HomePage"
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div className='dark:bg-dark-bg w-[100vw] h-[100vh]'>
-
-      </div>
+      <HomePage></HomePage>
     </>
   )
 }
