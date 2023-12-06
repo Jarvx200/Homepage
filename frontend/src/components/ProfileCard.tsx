@@ -1,13 +1,29 @@
+import {useState} from 'react'
+
 import { FaGithub} from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaSignature } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 
+import profilePicture from "../assets/photos/profile.jpg"
+import gopher from "../assets/photos/gopher.png"
+
 const ProfileCard = () => {
+
+    const [gopherImage, setGopherImage] = useState(false)
+    const toggleGopherImage = () => {
+        setGopherImage(!gopherImage);
+    }
+
     return(<>
-        <div className="md:w-[40vw] w-[90%] p-8 dark:bg-dark-brown flex md:flex-row flex-col items-center justify-center rounded-md  ">
-            <div className="md:w-[50%] w-[100%] h-auto flex flex-col justify-center mr-1 md:mb-0 mb-5">
-                <img className="w-[100%] h-auto bg-cover rounded-lg mb-4" src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/a325e722353999.5631184951d59.jpg"></img>
+        
+        <img src={gopher} className={`absolute 2xl:visible invisible top-[40%] w-[20%] ${gopherImage ? `shown left-[16%] animate-fade-left animate-once animate-duration-100 animate-ease-in-out` : `hidden left-[45%]`}`} />
+        <div className="animate-fade-up animate-once animate-duration-300 animate-ease-in-out md:w-[40vw] w-[90%] p-8 dark:bg-dark-brown bg-light-brown flex md:flex-row flex-col items-center justify-center rounded-md  ">
+            <div className="md:w-[50%] h-auto flex flex-col justify-center mr-1 md:mb-0 mb-5">
+                <img className="w-[100%] hover:cursor-pointer h-auto bg-cover rounded-lg mb-4"  
+                src={profilePicture}
+                onClick={()=>toggleGopherImage()}
+                ></img>
                 <ul className="w-[100%] pl-2 pr-2 flex flex-row items-center justify-center">
                     <li className="ml-6 mr-6 mt-3 md:mb-0 mb-4"><a href="https://github.com/Jarvx200" className="font-bold text-4xl  dark:text-dark-fg text-light-fg hover:dark:text-dark-purple hover:text-light-purple transition-all"><FaGithub></FaGithub></a></li>
                     <li className="ml-6 mr-6 mt-3 md:mb-0 mb-4"><a href="https://twitter.com/Jarvx404" className="font-bold text-4xl  dark:text-dark-fg text-light-fg hover:dark:text-dark-blue hover:text-light-blue  transition-all"><FaXTwitter></FaXTwitter></a></li>

@@ -20,7 +20,7 @@ export default {
           purple: '#b16286',
           aqua: '#689d6a',
           orange: '#d65d0e',
-          brown: '#2a2a2a'
+          brown: '#d4ce98'
         },
         dark: {
           bg: '#282828',
@@ -40,6 +40,8 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated')
+  ],
 }
 

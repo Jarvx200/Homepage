@@ -11,7 +11,8 @@ const Navbar = () => {
     return(
         <>
             <div className="w-[50%] flex flex-row items-center justify-center">
-                <ul className="flex flex-row items-center dark:text-dark-fg">
+                <button className=""></button>
+                <ul className="flex md:flex-row flex-col items-center dark:text-dark-fg">
                     <li className={`text-2xl ml-6 mr-6 hover:cursor-pointer ${activePage === 'home' ? `dark:text-dark-blue text-blue font-black text-light-blue` : `dark:text-dark-fg text-light-fg` }`}> Home </li>
                     <li className={`text-2xl ml-6 mr-6 hover:cursor-pointer ${activePage === 'achievements' ? `dark:text-dark-yellow  text-light-yellow` : `dark:text-dark-fg text-light-fg` }`}> Achievements </li>
                     <li className={`text-2xl ml-6 mr-6 hover:cursor-pointer ${activePage === 'projects' ? `dark:text-dark-aqua text-light-aqua` : `dark:text-dark-fg text-light-fg` }`}> Projects </li>
