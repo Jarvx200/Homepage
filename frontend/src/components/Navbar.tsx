@@ -1,8 +1,12 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Navbar = () => {
 
     const [activePage, setActivePage] = useState("home");
+
+    useEffect(()=>{
+        setActivePage('home')
+    })
 
     return(
         <>
