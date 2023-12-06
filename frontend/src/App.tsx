@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import HomePage from "./pages/HomePage"
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
   return (
     <>
       <HomePage></HomePage>
+      <Analytics />
     </>
   )
 }
