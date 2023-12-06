@@ -10,7 +10,7 @@ const Navbar = () => {
 
     return(
         <>
-            <div className="w-[50%] flex flex-row items-center justify-center">
+            <div className="w-[50%] lg:flex flex-row items-center justify-center lg:show hidden">
                 <button className=""></button>
                 <ul className="flex md:flex-row flex-col items-center dark:text-dark-fg">
                     <li className={`text-2xl ml-6 mr-6 hover:cursor-pointer ${activePage === 'home' ? `dark:text-dark-blue text-blue font-black text-light-blue` : `dark:text-dark-fg text-light-fg` }`}> Home </li>

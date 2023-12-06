@@ -19,8 +19,8 @@ const ProfileCard = () => {
         
         <img src={gopher} className={`absolute 2xl:visible invisible top-[40%] w-[20%] ${gopherImage ? `shown left-[16%] animate-fade-left animate-once animate-duration-100 animate-ease-in-out` : `hidden left-[45%]`}`} />
         <div className="animate-fade-up animate-once animate-duration-300 animate-ease-in-out md:w-[40vw] w-[90%] p-8 dark:bg-dark-brown bg-light-brown flex md:flex-row flex-col items-center justify-center rounded-md  ">
-            <div className="md:w-[50%] h-auto flex flex-col justify-center mr-1 md:mb-0 mb-5">
-                <img className="w-[100%] hover:cursor-pointer h-auto bg-cover rounded-lg mb-4"  
+            <div className="md:w-[50%] w-[100%] h-auto flex flex-col justify-center mr-1 md:mb-0 mb-5">
+                <img className="max-w-[100%]  hover:cursor-pointer h-auto bg-cover rounded-lg mb-4"  
                 src={profilePicture}
                 onClick={()=>toggleGopherImage()}
                 ></img>
