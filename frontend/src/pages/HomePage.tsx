@@ -13,7 +13,7 @@ const HomePage = () => {
                 <p className="animate-fade-up animate-once animate-duration-300 animate-ease-in-out dark:text-dark-purple text-light-purple font-semibold show md:text-xl text-lg  text-center  dark:bg-dark-brown bg-light-brown md:p-1 p-2  rounded-md mb-2">Full Stack Web Developer / Foss && Linux Enthusiast </p>
 
                 <ProfileCard/>
-                <div className="mb-5 mt-5 --spacer--"/>
+                <div className="mb-5 mt-5"/>
             <Footer/>
         </div> 
     </>);
