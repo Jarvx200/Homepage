@@ -1,8 +1,20 @@
 [
     {
-        "name":"PoliHack",
+        "name":"PoliHack - 2023",
         "place":"Junior First Place",
         "photoUrl":"https://osut.org/content/images/2022/10/polihack_banner-01.png",
         "eventUrl":"https://polihack.osut.org/"
+    },
+    {
+        "name":"UniHack - 2023",
+        "place":"Finalist Team",
+        "photoUrl":"https://i.ytimg.com/vi/T_8iyQNP6R0/maxresdefault.jpg",
+        "eventUrl":"https://unihack.eu/"
+    },
+    {
+        "name":"ONTI (Sectiunea C#) - 2023",
+        "place":"🥉 Medalie de bronz",
+        "photoUrl":"https://oti2023.isj-db.ro/wp-content/uploads/2023/05/logo-1024x1024.jpg",
+        "eventUrl":"https://oti2023.isj-db.ro/"
     }
 ]
