@@ -1,4 +1,3 @@
-import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
 import { SiC, SiCplusplus, SiCsharp, SiExpress, SiMongodb, SiMysql, SiRedux, SiSocketdotio, SiTailwindcss, SiTypescript, SiVim } from "react-icons/si";
