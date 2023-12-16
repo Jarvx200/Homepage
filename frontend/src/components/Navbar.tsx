@@ -30,7 +30,7 @@ const Navbar = () => {
                     <li className={`text-2xl ml-6 mr-6 hover:cursor-pointer ${currentLocation.pathname === '/info' ? `dark:text-dark-purple text-light-purple font-bold` : `dark:text-dark-fg text-light-fg` }`}
                     onClick={()=>navigateTo('/info')}
                     > Info </li>
-                    
+            
                     <li className={`text-2xl ml-6 mr-6 hover:cursor-pointer ${currentLocation.pathname === '/blog' ? `dark:text-dark-orange text-light-orange` : `dark:text-dark-fg text-light-fg` }`}
                     onClick={()=>navigateTo('/blog')}
                     > Blog </li>
