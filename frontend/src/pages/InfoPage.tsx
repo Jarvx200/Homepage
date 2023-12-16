@@ -62,7 +62,6 @@ const InfoPage = () => {
                       </a>
                     </div>
                   </div>  
-                  
                 <div className="flex flex-row items-center justify-center mt-5">
                     <h2 className="md:text-2xl text-xl font-bold mt-2 mr-3 dark:text-dark-aqua text-light-text-dark-aqua" >Backend:</h2>
                     <div className="flex flex-row items-center justify-center w-[100%] h-auto">

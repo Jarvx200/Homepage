@@ -6,6 +6,7 @@ import InfoPage from './pages/InfoPage'
 
 import UnderConstruction from './pages/UnderConstruction';
 import NotFoundPage from './pages/NotFoundPage';
+import ProjectsPage from './pages/ProjectsPage';
 
 function App() {
 
@@ -17,7 +18,7 @@ function App() {
             <Route path="/" element={<HomePage/>} />  
             <Route path="/achievements" element={<AchievementsPage/>} />  
             <Route path="/info" element={<InfoPage/>} />
-            <Route path="/projects" element={<UnderConstruction/>} />
+            <Route path="/projects" element={<ProjectsPage/>} />
             <Route path="/blog" element={<UnderConstruction/>} />
           </Routes>
         </Router>

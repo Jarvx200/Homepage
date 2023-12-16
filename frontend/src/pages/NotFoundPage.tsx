@@ -1,7 +1,3 @@
-import Navbar from "../components/Navbar";
-
-
-
 const NotFoundPage = () => {
     return(<>
         <div className="relative min-h-screen bg-cover flex flex-col items-center justify-center jus p-5 dark:bg-dark-bg bg-light-bg">
