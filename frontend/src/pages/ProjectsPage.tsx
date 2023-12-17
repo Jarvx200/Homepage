@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import projectsListDataFile from '../../data/projects.json'
 import { useState, useEffect } from "react";
+import Tilt from 'react-parallax-tilt';
 
 interface Project {
     name: string,
@@ -25,14 +26,18 @@ const  ProjectsPage = () => {
 
             <div className="flex flex-col w-full h-[90vh] items-center justify-center">
 
-                <div className="grid lg:grid-cols-4  grid-cols-1 gap-10 w-full h-full md:p-20">
+                <div className="grid lg:grid-cols-5  grid-cols-1 gap-5 w-full h-full md:p-20">
                     {
                     projectsList.map((project) => (
+                        <Tilt glareEnable={true}>
                         <div className="flex flex-col items-center animate-jump animate-once animate-duration-300 animate-delay-0 animate-ease-in-out w-full h-96 col-span-1 row-span lg:row-span-3 dark:bg-dark-brown bg-light-brown lg:p-0 rounded-xl">
-                            <img src={project?.photoUrl} className="object-cover w-full h-[55%] rounded-tl-xl rounded-tr-xl hover:cursor-pointer hover:opacity-50" onClick={()=>{window.open(project?.url)}}/>
-                            <h1 className="text dark:text-dark-fg text-light-fg  text-3xl font-semibold mt-5"> {project?.name} </h1>
-                            <h2 className="text dark:text-dark-fg text-light-fg  text-md font-normal mt-2 m-l2 text-center"> {project?.description} </h2>
+                            <img src={project?.photoUrl} className="object-cover w-full h-full rounded-tl-xl rounded-tr-xl hover:cursor-pointer hover:opacity-50" onClick={()=>{window.open(project?.url)}}/>
+                            <div className="w-full h-full flex flex-col items-center justify-start p-3">
+                                <h1 className={`text dark:text-dark-fg text-light-fg  text-3xl font-semibold mt-5`}> {project?.name} </h1>
+                                <h2 className="text dark:text-dark-fg text-light-fg  text-md font-normal mt-2 m-l2 text-center"> {project?.description} </h2>
+                            </div>
                         </div>
+                        </Tilt>
                     ))
                     }
                 </div>
