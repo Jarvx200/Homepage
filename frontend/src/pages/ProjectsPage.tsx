@@ -1,14 +1,15 @@
 import Navbar from "../components/Navbar";
-import projectsListDataFile from '../../data/projects.json' import{useState, useEffect } from "react";
+import projectsListDataFile from '../../data/projects.json' 
+import{useState, useEffect } from "react";
 import Tilt from 'react-parallax-tilt';
 
 interface Project {
   name : string, url : string, photoUrl : string, description : string,
 }
 
-const ProjectsPage = () = > {
+const ProjectsPage = () => {
 
-  const[projectsList, setProjectsList] = useState<(Project | null)[]>([]);
+    const [projectsList, setProjectsList] = useState<(Project | null)[]>([]);
 
     useEffect(() => {
     setProjectsList(projectsListDataFile);
