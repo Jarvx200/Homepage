@@ -1,22 +1,17 @@
 import Navbar from "../components/Navbar";
-import projectsListDataFile from '../../data/projects.json'
-import { useState, useEffect } from "react";
+import projectsListDataFile from '../../data/projects.json' import{useState, useEffect } from "react";
 import Tilt from 'react-parallax-tilt';
 
 interface Project {
-    name: string,
-    url: string,
-    photoUrl: string,
-    description: string,
+  name : string, url : string, photoUrl : string, description : string,
 }
 
+const ProjectsPage = () = > {
 
-const  ProjectsPage = () => {
-
-    const [projectsList, setProjectsList] = useState<(Project|null)[]> ([]);
+  const[projectsList, setProjectsList] = useState<(Project | null)[]>([]);
 
     useEffect(() => {
-        setProjectsList(projectsListDataFile);
+    setProjectsList(projectsListDataFile);
     }, [projectsListDataFile])
 
   return (
@@ -29,7 +24,6 @@ const  ProjectsPage = () => {
                 <div className="grid lg:grid-cols-5  grid-cols-1 gap-5 w-full h-full md:p-20">
                     {
                     projectsList.map((project) => (
-                        <Tilt glareEnable={true}>
                         <div className="flex flex-col items-center animate-jump animate-once animate-duration-300 animate-delay-0 animate-ease-in-out w-full h-96 col-span-1 row-span lg:row-span-3 dark:bg-dark-brown bg-light-brown lg:p-0 rounded-xl">
                             <img src={project?.photoUrl} className="object-cover w-full h-full rounded-tl-xl rounded-tr-xl hover:cursor-pointer hover:opacity-50" onClick={()=>{window.open(project?.url)}}/>
                             <div className="w-full h-full flex flex-col items-center justify-start p-3">
@@ -37,7 +31,6 @@ const  ProjectsPage = () => {
                                 <h2 className="text dark:text-dark-fg text-light-fg  text-md font-normal mt-2 m-l2 text-center"> {project?.description} </h2>
                             </div>
                         </div>
-                        </Tilt>
                     ))
                     }
                 </div>
