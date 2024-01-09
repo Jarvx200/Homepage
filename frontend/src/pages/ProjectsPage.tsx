@@ -1,9 +1,13 @@
 import Navbar from "../components/Navbar";
-import projectsListDataFile from '../../data/projects.json' import{useState, useEffect } from "react";
-import Tilt from 'react-parallax-tilt';
+import projectsListDataFile from '../../data/projects.json' 
+import{useState, useEffect } from "react";
+
 
 interface Project {
-  name : string, url : string, photoUrl : string, description : string,
+  name : string, 
+  url : string, 
+  photoUrl : string, 
+  description : string,
 }
 
 const ProjectsPage = () = > {
