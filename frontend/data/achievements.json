@@ -1,5 +1,17 @@
 [
     {
+        "name":"OSC (Etapa Judeteana) - 2024",
+        "place":"🥇 Locul I",
+        "photoUrl":"https://www.sri.ro/assets/img/news/olimpiada-2024/Olimpiada.jpg",
+        "eventUrl":"https://osc.rocsc.ro/"
+    },
+    {
+        "name":"OJI (Etapa Judeteana) - 2024",
+        "place":"🥈 Locul I",
+        "photoUrl":"https://nerdvana.ro/wp-content/uploads/2021/03/osepi_logo.jpg",
+        "eventUrl":"https://sepi.ro/"
+    },
+    {
         "name":"PoliHack - 2023",
         "place":"Junior First Place",
         "photoUrl":"https://osut.org/content/images/2022/10/polihack_banner-01.png",
@@ -20,7 +32,7 @@
     {
         "name":"FTC Robotics Nationals",
         "place":"Qualification",
-        "photoUrl":"https://media.licdn.com/dms/image/D4E0BAQGA_WTcTpPHzg/company-logo_400_400/0/1697728597898?e=1707955200&v=beta&t=aUDgxkKb5UviLwntG9IuZWfkBbFf-XOfjnI3_SLRLs8",
+        "photoUrl":"https://76564e3383.clvaw-cdnwnd.com/d8f342f68c729f10566367a9764a9efe/200014048-7192171925/power.jpeg?ph=76564e3383",
         "eventUrl":"https://natieprineducatie.ro/"
     }
 ]

@@ -7,6 +7,9 @@ import { VscTerminalBash } from "react-icons/vsc";
 
 import { FaFigma, FaLinux, FaNodeJs, FaPython } from "react-icons/fa";
 
+import ParkingLotImage from "../assets/photos/parkinglot.jpg";
+import HillsImage from "../assets/photos/hills.jpg"
+
 const InfoPage = () => {
   return (
     <>
@@ -41,7 +44,7 @@ const InfoPage = () => {
 
             <div className="animate-jump animate-once animate-duration-300 animate-delay-[30ms] animate-ease-in-out w-full h-full flex flex-col items-center col-span-1 row-span-1 lg:row-span-2  dark:bg-dark-brown bg-light-brown lg:p-0 pt-6 pb-6 rounded-xl">
                 <div className="w-[100%] h-[100%] flex flex-col items-center  justify-center p-10 break-words" >
-                  <h1 className="text dark:text-dark-fg text-light-fg  md:text-3xl text-2xl font-semibold">	• Technologies I use 	•</h1>
+                  <h1 className="text dark:text-dark-fg text-light-fg  md:text-3xl text-xl font-semibold">	• Technologies I use 	•</h1>
                   <div className="flex flex-col items-center justify-center">
 
                   <div className="flex flex-row items-center justify-center mt-5">
@@ -96,25 +99,25 @@ const InfoPage = () => {
                 <div className="flex flex-row items-center justify-center mt-5">                  
                     <h2 className="md:text-2xl text-xl font-bold mt-2 mr-3 dark:text-dark-orange text-light-orange " >Others:</h2>
                     <div className="flex flex-row items-center justify-center w-[100%] h-auto">
-                      <a href="https://www.linux.org/" className="text-4xl dark:text-dark-green text-light-green hover:opacity-50 ml-1.5 mr-1.5">
+                      <a href="https://www.linux.org/" className="md:text-4xl text-2xl dark:text-dark-green text-light-green hover:opacity-50 ml-1.5 mr-1.5">
                         <FaLinux/>
                       </a>
-                      <a href="https://www.gnu.org/software/bash/" className="text-4xl  dark:text-dark-blue text-light-blue hover:opacity-50 ml-1.5 mr-1.5">
+                      <a href="https://www.gnu.org/software/bash/" className="md:text-4xl text-2xl  dark:text-dark-blue text-light-blue hover:opacity-50 ml-1.5 mr-1.5">
                         <VscTerminalBash/>
                       </a>
-                      <a href="" className="text-3xl dark:text-dark-pruple text-light-purple hover:opacity-50 ml-1.5 mr-1.5">
+                      <a href="" className="md:text-3xl text-2xl dark:text-dark-pruple text-light-purple hover:opacity-50 ml-1.5 mr-1.5">
                         <SiC/>
                       </a>
-                      <a href="https://cplusplus.com/" className="text-3xl  dark:text-dark-orange text-light-orange hover:opacity-50 ml-1.5 mr-1.5">
+                      <a href="https://cplusplus.com/" className="md:text-3xl text-2xl  dark:text-dark-orange text-light-orange hover:opacity-50 ml-1.5 mr-1.5">
                         <SiCplusplus/>
                       </a>
-                      <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" className="text-3xl  dark:text-dark-red text-light-red hover:opacity-50 ml-1.5 mr-1.5">
+                      <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" className="md:text-3xl text-2xl  dark:text-dark-red text-light-red hover:opacity-50 ml-1.5 mr-1.5">
                         <SiCsharp/>
                       </a>
-                      <a href="https://www.vim.org" className="text-3xl  dark:text-dark-green text-light-green hover:opacity-50 ml-1.5 mr-1.5">
+                      <a href="https://www.vim.org" className="md:text-3xl text-2xl  dark:text-dark-green text-light-green hover:opacity-50 ml-1.5 mr-1.5">
                         <SiVim/>
                       </a>
-                      <a href="https://www.figma.com/" className="text-3xl  dark:text-dark-primary text-light-primary hover:opacity-50 ml-1.5 mr-1.5">
+                      <a href="https://www.figma.com/" className="md:text-3xl text-2xl  dark:text-dark-primary text-light-primary hover:opacity-50 ml-1.5 mr-1.5">
                         <FaFigma/>
                       </a>
                     </div>
@@ -130,11 +133,11 @@ const InfoPage = () => {
             </div>
 
             <div className="animate-jump animate-once animate-duration-300 animate-delay-[90ms]  animate-ease-in-out w-full h-full dark:bg-dark-brown bg-light-brown lg:p-0  lg:row-span-2 row-span-1 rounded-xl">
-              <img src=" https://gruvbox-wallpapers.pages.dev/wallpapers/anime/5m5kLI9.png" className="w-[100%] h-[100%] rounded-xl hover:opacity-50"></img>
+              <img src={ParkingLotImage} className="w-[100%] h-[100%] rounded-xl hover:opacity-50"></img>
             </div>
             
-            <div className="animate-jump  animate-once animate-duration-300 animate-delay-[120ms] animate-ease-in-out w-full h-full dark:bg-dark-brown bg-light-brown lg:p-0   row-span-1 rounded-xl">
-              <img src="https://gruvbox-wallpapers.pages.dev/wallpapers/anime/wall.jpg" className="w-[100%] h-[100%] rounded-xl hover:opacity-50"></img>
+            <div className="animate-jump  animate-once animate-duration-300 animate-delay-[120ms] animate-ease-in-out w-full h-full dark:bg-dark-brown bg-light-brown lg:p-0   row-span-1 rounded-xl object-cover">
+              <img src={HillsImage} className="w-[100%] h-[100%] rounded-xl hover:opacity-50 object-cover"></img>
             </div>
 
           </div>
