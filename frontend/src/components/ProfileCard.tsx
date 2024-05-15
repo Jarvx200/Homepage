@@ -36,7 +36,7 @@ const ProfileCard = () => {
                     <p>- - - - - -</p>
                     <p className=" md:text-2xl text-xl"><span className="font-bold text-2xl  dark:text-dark-purple text-light-purple">Name:</span> Bigu Cezar</p>
                     <p className=" md:text-2xl text-xl"><span className="font-bold text-2xl  dark:text-dark-blue text-light-blue">Location:</span> Romania</p>
-                    <p className=" md:text-2xl text-xl"><span className="font-bold text-2xl  dark:text-dark-yellow text-light-yellow">Uptime:</span> 16 yrs</p>
+                    <p className=" md:text-2xl text-xl"><span className="font-bold text-2xl  dark:text-dark-yellow text-light-yellow">Uptime:</span> 17 yrs</p>
                     <p className=" md:text-2xl text-xl"><span className="font-bold text-2xl  dark:text-dark-blue text-light-blue">Pronouns:</span> he / him</p>
             </div>
         </div>
