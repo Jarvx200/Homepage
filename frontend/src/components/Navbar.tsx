@@ -32,8 +32,7 @@ const Navbar = () => {
                     > Info </li>
             
                     <li className={`text-2xl ml-6 mr-6 hover:cursor-pointer ${currentLocation.pathname === '/blog' ? `dark:text-dark-orange text-light-orange` : `dark:text-dark-fg text-light-fg` }`}
-                    onClick={()=>navigateTo('/blog')}
-                    > Blog </li>
+                    > <a href="https://blog.cezarb.com">Blog</a></li>
 
                 </ul>
             </div>
