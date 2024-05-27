@@ -2,7 +2,6 @@ import {useState} from 'react'
 
 import { FaGithub, FaLinkedin} from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import { FaSignature } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 
 import profilePicture from "../assets/photos/profile.jpg"
