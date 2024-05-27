@@ -1,19 +1,25 @@
 [
     {
-        "name":"OSC (Etapa Judeteana) - 2024",
-        "place":"🥇 Locul I",
+        "name":"Caius Iacob - Programming Competition - 2024",
+        "place":"🥇 First Place",
+        "photoUrl":"https://caiusiacob.uav.ro/v14/wp-content/uploads/2020/02/cropped-Keyboard_Background.jpg",
+        "eventUrl":"https://caiusiacob.uav.ro/v14/"
+    },
+    {
+        "name":"OSC (County Phase) - 2024",
+        "place":"🥇 First Place",
         "photoUrl":"https://www.sri.ro/assets/img/news/olimpiada-2024/Olimpiada.jpg",
         "eventUrl":"https://osc.rocsc.ro/"
     },
     {
-        "name":"OJI (Etapa Judeteana) - 2024",
-        "place":"🥈 Locul II",
+        "name":"OJI (County Phase) - 2024",
+        "place":"🥈 Second Place",
         "photoUrl":"https://nerdvana.ro/wp-content/uploads/2021/03/osepi_logo.jpg",
         "eventUrl":"https://sepi.ro/"
     },
     {
         "name":"PoliHack - 2023",
-        "place":"Junior First Place",
+        "place":"🥇 Junior First Place",
         "photoUrl":"https://osut.org/content/images/2022/10/polihack_banner-01.png",
         "eventUrl":"https://polihack.osut.org/"
     },
@@ -24,8 +30,8 @@
         "eventUrl":"https://unihack.eu/"
     },
     {
-        "name":"ONTI (Sectiunea C#) - 2023",
-        "place":"🥉 Medalie de bronz",
+        "name":"ONTI (C#) (National Phase) - 2023",
+        "place":"🥉 Bronze Medal",
         "photoUrl":"https://oti2023.isj-db.ro/wp-content/uploads/2023/05/logo-1024x1024.jpg",
         "eventUrl":"https://oti2023.isj-db.ro/"
     },
@@ -34,5 +40,11 @@
         "place":"Qualification",
         "photoUrl":"https://76564e3383.clvaw-cdnwnd.com/d8f342f68c729f10566367a9764a9efe/200014048-7192171925/power.jpeg?ph=76564e3383",
         "eventUrl":"https://natieprineducatie.ro/"
+    },
+    {
+        "name":"OJI (County Phase) - 2022",
+        "place":"🥈 Second Place",
+        "photoUrl":"https://nerdvana.ro/wp-content/uploads/2021/03/osepi_logo.jpg",
+        "eventUrl":"https://sepi.ro/"
     }
 ]
