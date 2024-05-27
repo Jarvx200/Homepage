@@ -43,7 +43,7 @@ const AchievementsPage = () => {
                                 <div
                                 className="md:w-[70%] md:h-[100%] w-[100%]  flex flex-col justify-center  md:items-start items-center md:ml-2 p-5"
                                 >
-                                    <h1 className="text-3xl font-bold dark:text-dark-fg text-light-fg">{achievement?.name}</h1>
+                                    <a href={achievement?.eventUrl} target="_blank" className="text-3xl font-bold dark:text-dark-fg text-light-fg">{achievement?.name}</a>
                                     <h2 className="text-xl font-normal dark:text-dark-aqua text-light-fg mt-2">{achievement?.place}</h2>
                                 </div>
                             </div>
