@@ -1,11 +1,11 @@
 import Navbar from "../components/Navbar";
 
-import { SiC, SiCplusplus, SiCsharp, SiExpress, SiMongodb, SiMysql, SiRedux, SiSocketdotio, SiTailwindcss, SiTypescript, SiVim } from "react-icons/si";
+import { SiC, SiCplusplus, SiCsharp, SiExpress, SiKubernetes, SiMongodb, SiMysql, SiRedis, SiRedux, SiSocketdotio, SiTailwindcss, SiTypescript, SiVim } from "react-icons/si";
 import { BiLogoJavascript } from "react-icons/bi";
 import { VscTerminalBash } from "react-icons/vsc";
 
 
-import { FaFigma, FaLinux, FaNodeJs, FaPython } from "react-icons/fa";
+import { FaDocker, FaFigma, FaJava, FaLinux, FaNodeJs, FaPython } from "react-icons/fa";
 
 import ParkingLotImage from "../assets/photos/parkinglot.jpg";
 import HillsImage from "../assets/photos/hills.jpg"
@@ -36,7 +36,7 @@ const InfoPage = () => {
                 </p>
 
                 <p className="text dark:text-dark-fg text-light-fg mt-10 md:text-xl text-md font-medium">
-                  🌐 Enthusiastic about <span className="dark:text-dark-green text-light-secondary font-bold">fullstack development</span>, passionate about <span className="dark:text-dark-aqua text-light-aqua font-bold">Linux && FOSS</span>, and diving into <span className="dark:text-dark-purple text-light-purple font-bold">machine learning</span>.
+                  🌐 Enthusiastic about <span className="dark:text-dark-green text-light-secondary font-bold">fullstack development</span>, passionate about <span className="dark:text-dark-aqua text-light-aqua font-bold">Linux && FOSS</span>, and diving into <span className="dark:text-dark-purple text-light-purple font-bold">Cybersecurity</span>.
                 </p>
 
               </div>
@@ -80,6 +80,9 @@ const InfoPage = () => {
                       <a href="https://socket.io/" className="text-4xl dark:text-dark-purple text-light-pruple hover:opacity-50 ml-1.5 mr-1.5">
                         <SiSocketdotio/>
                       </a>
+                      <a href="https://www.java.com" className="text-4xl dark:text-dark-yellow text-light-yellow hover:opacity-50 ml-1.5 mr-1.5">
+                        <FaJava/>
+                      </a>
                     </div>
                 </div>
 
@@ -91,6 +94,9 @@ const InfoPage = () => {
                       </a>
                       <a href="https://www.mysql.com/" className="text-5xl dark:text-dark-blue text-light-blue hover:opacity-50 ml-1.5 mr-1.5">
                         <SiMysql/>
+                      </a>
+                      <a href="https://www.redis.com/" className="text-5xl dark:text-dark-red text-light-red hover:opacity-50 ml-1.5 mr-1.5">
+                        <SiRedis/>
                       </a>
                     </div>
                   </div>
@@ -119,6 +125,12 @@ const InfoPage = () => {
                       </a>
                       <a href="https://www.figma.com/" className="md:text-3xl text-2xl  dark:text-dark-primary text-light-primary hover:opacity-50 ml-1.5 mr-1.5">
                         <FaFigma/>
+                      </a>
+                      <a href="https://www.docker.com/" className="md:text-3xl text-2xl  dark:text-dark-blue text-light-blue hover:opacity-50 ml-1.5 mr-1.5">
+                        <FaDocker/>
+                      </a>
+                      <a href="https://kubernetes.io/" className="md:text-3xl text-2xl  dark:text-dark-blue text-light-blue hover:opacity-50 ml-1.5 mr-1.5">
+                        <SiKubernetes/>
                       </a>
                     </div>
                 </div>
