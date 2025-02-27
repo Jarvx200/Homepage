@@ -46,8 +46,8 @@ const ProfileCard = () => {
             
         </div>
         <div className='animate-fade-up  gap-x-3 flex flex-row animate-once mt-2 animate-duration-300 animate-ease-in-out md:w-[40vw] w-[90%] p-2 dark:bg-dark-brown bg-light-brown items-center justify-center rounded-md'>
-            <FaFingerprint className='md:visible invisible'/>
-            <p>PGP Fingerprint: <span className='text-dark-primary'>2703 1807 3B6E 1FA0 6F41</span>  <span className='text-dark-secondary'>50A6 9F5C AAB3 05B2 B421</span></p>
+            <FaFingerprint className='md:visible invisible dark:text-dark-fg text-light-fg'/>
+            <p className='dark:text-dark-fg text-light-fg'>PGP Fingerprint: <span className='text-dark-primary'>2703 1807 3B6E 1FA0 6F41</span>  <span className='text-dark-secondary'>50A6 9F5C AAB3 05B2 B421</span></p>
         </div>
     </>)
 }   
