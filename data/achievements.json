@@ -1,0 +1,68 @@
+[
+    {
+        "name":"Polihack - 2024",
+        "place":"🥇 First Place - App Dev",
+        "photoUrl":"https://polihack.osut.org/assets/images/BACKGROUND%20SITE%201920x1080-01.jpg",
+        "eventUrl":"https://polihack.osut.org/"
+    },
+    {
+        "name":"Unihack - 2024",
+        "place":"🥇 First Place - Medical Renaissance",
+        "photoUrl":"https://ac.upt.ro/wp-content/uploads/2024/11/img_site.png",
+        "eventUrl":"https://unihack.eu/"
+    },
+    {
+        "name":"CyberHack Days - 2024",
+        "place":"🥈 Second Place",
+        "photoUrl":"https://cdn-az.allevents.in/events7/banners/04e29e98e410ef86347a139e00987319ac920e339fa034ab81841c787d080dbe-rimg-w1200-h628-dc044b77-gmir?v=1719746246",
+        "eventUrl":"https://cyberhack.day/"
+    },
+    {
+        "name":"Caius Iacob - Programming Competition - 2024",
+        "place":"🥇 First Place",
+        "photoUrl":"https://caiusiacob.uav.ro/v14/wp-content/uploads/2020/02/cropped-Keyboard_Background.jpg",
+        "eventUrl":"https://caiusiacob.uav.ro/v14/"
+    },
+    {
+        "name":"OSC (County Phase) - 2024",
+        "place":"🥇 First Place",
+        "photoUrl":"https://www.sri.ro/assets/img/news/olimpiada-2024/Olimpiada.jpg",
+        "eventUrl":"https://osc.rocsc.ro/"
+    },
+    {
+        "name":"OJI (County Phase) - 2024",
+        "place":"🥈 Second Place",
+        "photoUrl":"https://nerdvana.ro/wp-content/uploads/2021/03/osepi_logo.jpg",
+        "eventUrl":"https://sepi.ro/"
+    },
+    {
+        "name":"PoliHack - 2023",
+        "place":"🥇 Junior First Place",
+        "photoUrl":"https://osut.org/content/images/2022/10/polihack_banner-01.png",
+        "eventUrl":"https://polihack.osut.org/"
+    },
+    {
+        "name":"UniHack - 2023",
+        "place":"Finalist Team",
+        "photoUrl":"https://i.ytimg.com/vi/T_8iyQNP6R0/maxresdefault.jpg",
+        "eventUrl":"https://unihack.eu/"
+    },
+    {
+        "name":"ONTI (C#) (National Phase) - 2023",
+        "place":"🥉 Bronze Medal",
+        "photoUrl":"https://oti2023.isj-db.ro/wp-content/uploads/2023/05/logo-1024x1024.jpg",
+        "eventUrl":"https://oti2023.isj-db.ro/"
+    },
+    {
+        "name":"FTC Robotics Nationals",
+        "place":"Qualification",
+        "photoUrl":"https://76564e3383.clvaw-cdnwnd.com/d8f342f68c729f10566367a9764a9efe/200014048-7192171925/power.jpeg?ph=76564e3383",
+        "eventUrl":"https://natieprineducatie.ro/"
+    },
+    {
+        "name":"OJI (County Phase) - 2022",
+        "place":"🥈 Second Place",
+        "photoUrl":"https://nerdvana.ro/wp-content/uploads/2021/03/osepi_logo.jpg",
+        "eventUrl":"https://sepi.ro/"
+    }
+]

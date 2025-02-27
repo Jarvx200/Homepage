@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Unify App",
+        "nameColor": "b16286",
+        "url": "https://github.com/stack-bytes/unify-app",
+        "photoUrl": "https://github.com/stack-bytes/unify-app/assets/147537737/50aeb0d8-5051-4baf-b586-4afa1bef7d16",
+        "description":"Unify App is your go-to for bringing people together and making those real connections"
+    },
+    {
+        "name": "Betr Space App",
+        "nameColor": "689d6a",
+        "url": "https://github.com/stack-bytes/betrspace-app",
+        "photoUrl": "https://github.com/stack-bytes/betrspace-app/assets/147537737/64e878c0-328e-4809-97d8-5360032001fa",
+        "description":"Welcome to BetrSpace, where social interactions become seamless and engaging!"
+    },
+    {
+        "name": "ARCyber Website",
+        "nameColor": "689d6a",
+        "url": "https://arcyber.ro/",
+        "photoUrl": "https://github.com/arcybersec/arcyber/assets/147537737/f3e1a52e-96df-4d70-ab4a-27c6a41b48b8",
+        "description":"The website of the ARCyber project, a project that aims to bring together the cybersecurity community in Arad, Romania"
+    },
+    {
+        "name": "CyberTM Challs",
+        "nameColor": "689d6a",
+        "url": "https://github.com/arcybersec/CyberTM-ArCyber-Challs",
+        "photoUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F743615219%2F2096073912723%2F1%2Foriginal.20240415-101847?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=4b8660bd8ceec69ffd105553c13fbc31",
+        "description":"Problems created by the ARCyber team for the CyberTM CTF competition"
+    },
+    {
+        "name": "Mindbloom",
+        "nameColor": "689d6a",
+        "url": "https://github.com/stack-bytes/mindbloom-backend",
+        "photoUrl": "https://i.imgur.com/WEDM0uR.png",
+        "description":"Nurturing minds. Blossoming change. App that helps connecting people to therapists"
+    }
+
+]
