@@ -1,5 +1,17 @@
 [
     {
+        "name":"Polihack - 2024",
+        "place":"🥇 First Place - App Dev",
+        "photoUrl":"https://polihack.osut.org/assets/images/BACKGROUND%20SITE%201920x1080-01.jpg",
+        "eventUrl":"https://polihack.osut.org/"
+    },
+    {
+        "name":"Unihack - 2024",
+        "place":"🥇 First Place - Medical Renaissance",
+        "photoUrl":"https://ac.upt.ro/wp-content/uploads/2024/11/img_site.png",
+        "eventUrl":"https://unihack.eu/"
+    },
+    {
         "name":"CyberHack Days - 2024",
         "place":"🥈 Second Place",
         "photoUrl":"https://cdn-az.allevents.in/events7/banners/04e29e98e410ef86347a139e00987319ac920e339fa034ab81841c787d080dbe-rimg-w1200-h628-dc044b77-gmir?v=1719746246",
